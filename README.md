@@ -25,4 +25,7 @@ and *RETRY_TIME* to 600
 
 ## Tips
 - Do not use your personal account, it might get temporally blocked
-
+- This script won't automatically reschedule your appointment, it'll only send you the notification about the available 
+timeslot
+- You can change line 145 in visa.py to follow your conditions  
+```if 'October, 2022' in dates or 'November, 2022' in dates:```
